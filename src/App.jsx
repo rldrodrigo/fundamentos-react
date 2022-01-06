@@ -23,21 +23,15 @@ export default () => (
                 <UsuarioInfo usuario={{ nome: 'Fernando' }}></UsuarioInfo>
                 <UsuarioInfo usuario={{ email: 'test@mail.com' }}></UsuarioInfo>
             </Card>
-        </div>
 
-        <div className="Cards">
             <Card titulo="#07 - Desafio Repetição " color="#E19D29">
                 <TabelaProdutos></TabelaProdutos>
             </Card>
-        </div>
 
-        <div className='Cards'>
             <Card titulo="#06 - Repetição" color="#E9514C">
                 <ListaAlunos></ListaAlunos>
             </Card>
-        </div>
 
-        <div className='Cards'>
             <Card titulo="#05 - Componente com Filhos" color="#00C8F8">
                 <Familia sobrenome="Lima">
                     <FamiliaMembro nome="Pedro" />
@@ -45,7 +39,6 @@ export default () => (
                     <FamiliaMembro nome="José" />
                 </Familia>
             </Card>
-
 
             <Card titulo="#04 - Desafio Aleatório" color="#FA6900">
                 <Aleatorio min={10} max={60} />
