@@ -1,6 +1,5 @@
 import React from "react";
 import produtos from "../../data/produtos";
-import alunos from "../../data/produtos"
 
 import './TabelaProdutos.css'
 
