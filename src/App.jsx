@@ -1,5 +1,6 @@
 import './App.css'
 
+import Mega from './components/mega/Mega'
 import Contador from './components/contador/Contador'
 import Input from './components/formulario/Input'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
@@ -19,10 +20,14 @@ import Fragmento from './components/basicos/Fragmento'
 import React from 'react'
 
 
+
 export default () => (
     <div className='App'>
         <h1> Fundamentos React </h1>
         <div className="Cards">
+            <Card titulo="#13 - Mega " color="#B9006E">
+                <Mega qtde={8} />
+            </Card>
 
             <Card titulo="#12 - Contador " color="#708090      ">
                 <Contador numeroInicial={10}></Contador>
